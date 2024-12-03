@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-task {
+    background-image: url("forestbridge.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.rss {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.count {
+    margin-top: 10px;
+    font-size: 18px;
+}
